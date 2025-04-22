@@ -1,0 +1,17 @@
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: Projetovisck
+  description: Serviço responsável pela autenticação de usuários
+  tags:
+    - Batata
+    - banana
+    - berinjela
+  annotations:
+    github.com/project-slug: tadeuaugusto/my-awesome-service
+    backstage.io/techdocs-ref: dir:.
+spec:
+  type: Website
+  owner: Moises
+  lifecycle: Em prazo
+  system: plataforma
